@@ -1,0 +1,31 @@
+
+/*youtube video*/
+iframe {
+    margin: 15px auto;
+    height: 400px;
+    width: 100%;
+    padding: 10px
+    justify-content-center;
+  }
+   
+   
+  /* mobile */
+  @media screen and (max-width: 768px) {
+    iframe {
+        height: 280px;
+    }
+    }
+    
+    /* tablets */
+    @media screen and (min-width: 768px) and (max-width: 1200px){
+        iframe {
+          height: 515px;
+    }
+  }
+    
+    /* desktop */
+    @media screen and (min-width:1200px){
+        iframe {
+         height: 670px;
+        }
+    }
